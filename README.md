@@ -16,33 +16,22 @@ This project allows users to **manage doctors, patients, and appointments** thro
 
 ---
 
-## 🗂️ Project Structure
+## 🛠️ Technologies Used
 
-HospitalManagementSystemWithDB/
-├── src/
-│ ├── app/ # Main application entry point
-│ │ └── Main.java
-│ ├── dao/ # Data Access Objects for database operations
-│ │ ├── doctorsDAO.java
-│ │ ├── patientDAO.java
-│ │ └── appointmentsDAO.java
-│ ├── model/ # Java classes (entities)
-│ │ ├── doctors.java
-│ │ ├── patients.java
-│ │ └── appointments.java
-│ └── util/ # Utilities and helpers
-│ ├── DBConnection.java
-│ ├── ExceptionHandling.java
-│ ├── ConvertSqlDateTimeToLocal.java
-│ └── Menu.java
-│
-├── config.properties # Database credentials (ignored in Git)
-├── .gitignore
-└── README.md
+- **Java (JDK 17 or later recommended)**  
+- **MySQL**  
+- **JDBC API**  
+- **IntelliJ IDEA / Eclipse**
+
+---
+
+## ⚙️ Setup Instructions
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/HospitalManagementSystemWithDB.git
+   cd HospitalManagementSystemWithDB
+
 
 git clone https://github.com/Lukyshi/HospitalManagementSystemWithDB.git
 cd HospitalManagementSystemWithDB
-
-db.url=jdbc:mysql://localhost:3306/hospitaldb
-db.username=root
-db.password=yourpassword
