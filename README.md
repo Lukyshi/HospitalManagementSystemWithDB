@@ -29,7 +29,7 @@ This project allows users to **manage doctors, patients, and appointments** thro
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/HospitalManagementSystemWithDB.git
+   git clone https://github.com/Lukyshi/HospitalManagementSystemWithDB.git
    cd HospitalManagementSystemWithDB
 
 
