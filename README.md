@@ -20,23 +20,23 @@ This project allows users to **manage doctors, patients, and appointments** thro
 
 HospitalManagementSystemWithDB/
 ├── src/
-│   ├── app/                # Main application entry point
-│   │   └── Main.java
-│   ├── dao/                # Data Access Objects for database operations
-│   │   ├── doctorsDAO.java
-│   │   ├── patientDAO.java
-│   │   └── appointmentsDAO.java
-│   ├── model/              # Java classes (entities)
-│   │   ├── doctors.java
-│   │   ├── patients.java
-│   │   └── appointments.java
-│   └── util/               # Utilities and helpers
-│       ├── DBConnection.java
-│       ├── ExceptionHandling.java
-│       ├── ConvertSqlDateTimeToLocal.java
-│       └── Menu.java
+│ ├── app/ # Main application entry point
+│ │ └── Main.java
+│ ├── dao/ # Data Access Objects for database operations
+│ │ ├── doctorsDAO.java
+│ │ ├── patientDAO.java
+│ │ └── appointmentsDAO.java
+│ ├── model/ # Java classes (entities)
+│ │ ├── doctors.java
+│ │ ├── patients.java
+│ │ └── appointments.java
+│ └── util/ # Utilities and helpers
+│ ├── DBConnection.java
+│ ├── ExceptionHandling.java
+│ ├── ConvertSqlDateTimeToLocal.java
+│ └── Menu.java
 │
-├── config.properties       # Database credentials (not uploaded to GitHub)
+├── config.properties # Database credentials (ignored in Git)
 ├── .gitignore
 └── README.md
 
