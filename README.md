@@ -32,7 +32,10 @@ This project allows users to **manage doctors, patients, and appointments** thro
    git clone https://github.com/Lukyshi/HospitalManagementSystemWithDB.git
    cd HospitalManagementSystemWithDB
 
+##
+
 *This project is for educational and personal learning purposes only. It was developed to practice Java programming concepts, database connectivity, and object-oriented design.
 
+##
 git clone https://github.com/Lukyshi/HospitalManagementSystemWithDB.git
 cd HospitalManagementSystemWithDB
